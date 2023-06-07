@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+
+/* brandbox */
+.brandbox{width:1260px;margin:0px auto;margin-bottom:40px;margin-top:20px;}
+.brandbox ul li{float:left;}
+.brandbox ul li.brand_item{width:252px;height:534px}
+.brand_item a{display:block;width:252px;height:534px}
+.brand_item a:hover{text-decoration:none}
+.brand_item a.brand_name{}
+.brand_item a.brand_detail{}

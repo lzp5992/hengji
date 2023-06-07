@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css">
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>"
+
+</head>
+<body>
+
+<div>
+    <py-script>
+        from turtle import*
+        from time import*
+        from random import*
+        
+        def draw_firework():
+            dis=0
+            radius=0
+            for j in range(8):
+                if j !=0:
+                    dis+=100/(j*2)
+                radius=30/(j+1)
+                clear()
+                for i in range(36):
+                    seth(i*10)
+                    penup()
+                    forward(dis)
+                    pendown()
+                    seth(0)
+                    dot(radius)
+                    seth(i*10) 
+                    penup()
+                    backward(dis)
+                    pendown()
+                update()
+                sleep(0.05)
+        
+        tracer(0)
+        
+        bgcolor("black")
+        hideturtle()
+        while True:
+        
+            penup()
+            goto(randint(-360,360),randint(-360,360))
+            pendown()
+            color(random(),random(),random())
+            draw_firework()
+        
+    </py-script>
+    </div>
+    
+</body>
+</html>

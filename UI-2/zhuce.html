@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+    <script src="js/dy.js" type="text/javascript"></script>
+    
+    <style type="text/css">
+        
+        table{
+            
+            width:1000px;
+            height: 400px;
+            font-size: 20px;
+            margin: 50px auto;
+            padding: 0px;
+            
+         
+        }
+        tr{height: 80px;}
+    
+        th{
+          padding-bottom:10px;
+            font-size: 26px;
+            color:rgb(32, 31, 30);
+        }
+        .txt{
+            width:250px;
+            height: 50px;
+            margin: 5px;
+            font-size: 18px;
+        }
+        .button1{
+            font-size: 18px;
+            width: 80px;
+            height: 50px;
+            margin: 5px;
+        }
+    .info{
+        color: #444444;
+        font-size: 16px;;
+    }
+     
+    </style>
+   
+</head>
+<body>
+    <form method="post" action="" name="fre" onsubmit="checkout()" >
+        <table align="center"  >
+            <tr>
+                <th colspan="3" align="center" height="50" >填写账户信息</th>
+            </tr>
+          <tr >
+              <td align="right" width="80" >用户名：</td>
+              <td>*<input type="text" placeholder="请输入用户名" name="admin" class="txt"></td>
+              <td class="info">用户名由字母开头，后面跟字母、数字或下划线</td>
+          </tr>
+          <tr>
+            <td  align="right">密码：</td>
+            <td>*<input type="password" placeholder="请输入密码" name="password" class="txt"></td>
+            <td class="info">请设置登录密码！</td>
+        </tr>
+        <tr>
+            <td align="right">确认密码：</td>
+            <td>*<input type="password" placeholder="请再次输入密码" name="repassword" class="txt"></td>
+           <td class="info">请再次输入您的密码！</td>
+        </tr>
+        <tr>
+            <td align="right">性别：</td>
+            
+            <td  >
+                <input type="radio" id="sex" name="sex" value="boy" checked="checked">男
+                <input type="radio" id="sex" name="sex" value="girl">女
+    
+                </td>
+                <td class="info">请选择您的性别!</td>
+        </tr>
+        <tr>
+        <td align="right">邮箱地址：</td>
+              <td>*<input type="email"  name="email" class="txt"></td>
+              <td class="info">请输入您的常用邮箱地址，用此邮箱可以找回您的密码！</td>
+            </tr>
+            <tr>
+                <td align="right">基本情况：</td>
+                      <td  colspan="2">* <textarea name="userInfo" rows="5" style="width: 250px;"></textarea></td>
+                      
+                    </tr>
+        <tr>
+            <td colspan="3" style="width:100%">
+                 <input type="checkbox" name="accept" >
+                我已仔细阅读并同意接受用户使用协议
+               
+            </td>
+          
+        </tr>
+        <tr>
+            <td colspan="3" align="center" style="width:100%">
+                <input type="submit" onsubmit="checkout()" value="确定" class="button1">
+                <button class="button1"  type="button" onclick="window.history.back()">取消</button>
+            </td>
+          
+        </tr>
+        </table>
+    </form>
+</body>
+</html> 
+</body>
+</html>

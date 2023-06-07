@@ -1,0 +1,246 @@
+	.wrap{width:1260px;}
+	.live-area .live-list ul li{width:200px;margin-right:45px;}
+	.live-area .live-list ul li > p{height: 176px;overflow: hidden;}
+	.live-area .more{margin-right:135px;}
+	.footer .foot-nav > ul > li{margin-right: 35px;width: 90px;}
+	.footer .foot-nav > ul > li > ul > li > a{padding-top:3px;padding-bottom:3px;}
+
+	.header-info{margin-right:60px;}
+	.bannerFade .tab-btn{bottom:150px;}
+	#video{width: 915px;height: 515px;margin-left: -457.5px;margin-top: -257.5px;}
+
+	.title-block{width:250px;margin-top: -70px;}
+	.title-block > div{line-height:69px;font-size:30px;}
+	.views > span{font-size:12px;}
+	.detail-list .rList > ul > li .celebrity-img-box{width:90px;height:90px;line-height:90px;}
+	.detail-list .rList > ul > li img{}
+	.detail-list .rList > ul > li h5{margin-left:16px;font-size:14px;margin-top:12px;width:50%;}
+	.detail-list .rList > ul > li{margin-bottom:22px;}
+	.page-detail-title{font-size:21px;line-height:32px;}
+	.detail-list .rList h4{font-size:18px;}
+	.detail-list .lDetail > p{margin-bottom:28px;}
+	.detail-list .lDetail > .about > li > a > img{width:70px;padding: 10px 2px 10px 10px;height:70px;}
+	.detail-list .lDetail > .about > li > a > h5{font-size:14px;margin-top:20px;width:52%;}
+	.inn > .inn-content .inn-info h2{font-size:26px;}
+	.inn > .inn-content .inn-info span{margin-top:14px;margin-bottom:26px;}
+	.inn > .inn-content .inn-logo{margin-right:28px;}
+	.inn > .inn-content .inn-info{margin-right:70px;}
+	.inn{padding-top:60px;}
+	.innBanner,.innBanner2{margin-top:60px;}
+	.inn > p{margin-top:40px;}
+	.inn > .inn-food > li > a > img{width:70px;padding: 10px 2px 10px 10px;}
+	.inn > .inn-food > li > a > h5{font-size:14px;margin-top:20px;width:52%;}
+
+	.detail-info{margin-bottom:40px;}
+	.detail-info > p > a > img{width:19px;margin-left:10px;}
+	.detail-list .lDetail > h2{font-size:18px;line-height:28px;}
+
+	.introduction h2{margin-top:40px;}
+	.geography .pc1000-g{display:block;}
+	.geography > div{float:none;}
+	.geography .g2{display:none;}
+	.geography .g1{width:100%;margin-right:0;}
+	.geography .h42{margin-top:32px;}
+	.glist > ul > li > .gl1 > .pcn{display:none;}
+	.glist > ul > li > .gl1 > .pc1000{display:block;}
+	.glist > ul > li > div{float:none;}
+	.glist > ul > li > .gl1{width:100%;margin-right:0;}
+	.glist > ul > li > .gl2{width:100%;}
+	.glist > ul > li{margin-top:32px;}
+	.glist > ul > li > .gl2{margin-top:32px;}
+	.geography2{padding-top:16px;padding-bottom:64px;}
+	.geography2 > h2{margin-top:48px;}
+	.historyBanner > div > h2{font-size:36px;height:150px;line-height:50px;left:146px;top:58px;}
+	.historyBanner > div > div{width:500px;}
+	.historyBanner > div > p{width:383px;right:77px;top:70px;}
+	.historyBanner .arrow-left{left:32px;}
+	.historyBanner .arrow-right{right:32px;}
+	.history .h-pc1000{display:block;}
+	.history .h1 p{margin-top:32px;}
+	.history > div{float:none;}
+	.history .h1{width:100%;margin-right:0;}
+	.history2 .hi2{width:100%;}
+	.history .h2{display:none;}
+	.history2 .h2pc1000{display:block;}
+	.history2 > p{margin-top:32px;}
+	.history2 > div{float:none;margin-top:0;}
+	.history2 .hi1{display:none;}
+	.history2 .hi2 h4:first-child{margin-top:32px;}
+
+	.field h3{font-size:25px;}
+	.field h4{font-size:20px;}
+	.field > span{width:26px;}
+
+	.service > h3{font-size:25px;}
+	.service > ul > li{width:257px;margin-right:100px;}
+	.service .views > span > a{font-size:18px;}
+
+	.internet > ul > li{width:285px;margin-right:71px;}
+	.internet > ul > li > h3{font-size:18px;}
+
+	.ph1{font-size:25px;}
+	.cultural > ul > li img{width:285px;margin-right:28px;height:178px;}
+	.cultural > ul > li > a > div{width:685px;}
+	.cultural > ul > li > a h2{font-size:18px;line-height:36px;}
+	.cultural > ul > li > a > div > span{font-size:12px;margin-top:5px;padding:2px 8px;}
+	.cultural > ul > li > a h4{font-size:12px;margin-top:8px;}
+	.cultural > ul > li > a p{font-size:12px;margin-top:7px;line-height:20px;}
+	.cultural > ul > li > a .views{margin-top:9px;}
+	.cultural > ul > li > a .views > span{padding-bottom:6px;font-size:14px;}
+	
+	.cultural2 .list-activity > li{margin-bottom:40px;height:282px;}
+	.cultural2 .list-activity > li .views{margin-top:10px}
+
+	.ralBox .lb{width:410px;margin-right:75px;}
+	.ralBox .rb{width:514px;}
+	.festival .ralBox .rb p{font-size:12px;line-height:20px;margin-right:15px;}
+	.festival2 .lb h4{font-size:14px;line-height:20px;margin-top:34px;}
+	.festival2 .lb p{font-size:12px;line-height:20px;}
+	.festival2 .ralBox .lb h3{font-size:20px;}
+	.festival2 .ralBox .lb button, .muxin2 .ralBox .lb button{font-size:18px;padding-left:37px;padding-right:37px;}
+	.festival2 .ralBox .rb h5{font-size:16px;}
+	.festival2 .ralBox .lb button, .muxin2 .ralBox .lb button{margin-top:17px;}
+
+	.muxin3 > ul > li h4{font-size:18px;}
+	.muxin3 > ul > li button{font-size:18px;}
+	.muxin3 > ul > .li1{padding-right:95px;}
+	.muxin3 > ul > .li3{padding-left:85px;}
+	.muxin2 .ralBox .lb button{margin-top:33px;}
+	.muxin3 > ul > li button{margin-top:16px;}
+	.muxin3 > ul > li > img{width:85px;}
+	.muxin3 > ul > li h5{font-size:14px;}
+
+	.photo-album .photo-album-play{width:60px;margin-top:-30px;margin-left:-30px;}
+	.notice .notice-list{width:642px;margin-right:71px;}
+	.notice .time-select-list{width:278px;}
+	.notice .notice-list > ul > li h2{font-size:18px;}
+	.notice .notice-list > ul > li .active .notice-date-top{font-size:12px;padding:2px 8px;}
+	.notice .notice-list > ul > li .notice-date{margin-right:15px;}
+	.notice .notice-list > ul > li h2 span{margin-top:23px;}
+
+
+	.notice .time-select-list h3{font-size:18px;}
+	.notice .time-select-list > ul{margin-top: 22px;}
+	.notice .time-select-list > ul > li{font-size:12px;line-height:18px;margin-bottom:8px;}
+	.notice .notice-list > ul > li .notice-date .notice-date-month{font-size:18px;margin-bottom:4px;}
+	.notice .notice-list > ul > li .notice-date .notice-date-year{font-size:12px;padding:0px 6px;margin-left:5px;}
+
+
+
+
+	.travel-tips-box{padding:57px 25px 11px 25px;}
+	.travel-tips-box > li{width:178px;margin-right:75px;padding-top:15px;padding-bottom:20px;margin-bottom:45px;}
+	.travel-tips-box > li > p{font-family: Microsoft YaHei;font-size: 20px;color: #272831;letter-spacing: 1.07px;margin-top:0px;}
+	.travel-tips-box > li > .travel-tips-box-views{margin-top:5px;}
+	.travel-tips-box-views > span{font-size:12px;}
+
+	.travel-tips-dongzha{padding-bottom:51px;}
+	.travel-tips-dongzha .map-img{padding:47px 0px 0 0px;position:relative;}
+	.travel-tips-dongzha > h1{padding-top:22px;}
+	.travel-tips-dongzha .map-img > span{position:absolute;top:596px;right:0px;line-height:40px;font-family: Microsoft YaHei;font-size: 14px;color: #FFFFFF;letter-spacing: 0.8px;z-index:100;padding-right:8px;cursor:pointer;}
+	.travel-tips-dongzha .map-img > div{opacity: 0.5;background: #272831;width:137px;height:40px;position:absolute;top:596px;right:0px;}
+	.travel-tips-xizha .map-img > span{top:505px;}
+	.travel-tips-xizha .map-img > div{top:505px;}
+
+	.travel-tips-CCO > .COO-info .COO-info-text{width:910px;}
+	.travel-tips-CCO > h1,.travel-tips-service-point > h1,.travel-tips-phone > h1{margin-top:23px;}
+	.travel-tips-CCO > .innBanner,.travel-tips-service-point > img,.travel-tips-phone > ul{margin-top:34px;}
+	.travel-tips-service-point > b{margin-top:34px;}
+	.travel-tips-service-point > p{margin-top:11px;}
+	.travel-tips-service-point{padding-bottom:45px;}
+
+	.travel-tips-phone > ul > li{width:284px;margin-right:71px;padding-top:16px;padding-bottom:24px;margin-bottom:34px;}
+	.travel-tips-phone > ul > li h5{font-size: 18px;line-height: 32px;}
+	.travel-tips-phone > ul > li p{font-size: 24px;line-height: 30px;margin-top:8px;}
+
+	.travel-tips-surrounding-traffic .route > li > div > p{padding-right:20px;padding-left:20px;}
+	.travel-tips-surrounding-traffic .route > li > span{width:136px;}
+	.travel-tips-surrounding-traffic{padding-bottom:17px;padding-top:34px;}
+	.travel-tips-surrounding-traffic > h4{margin-top:34px;}
+	.travel-tips-surrounding-traffic > h5{margin-top:34px;}
+	.travel-tips-surrounding-traffic > hr{margin-top:34px;}
+	.travel-tips-surrounding-traffic .route{margin-top:17px;}
+	.travel-tips-surrounding-traffic > .small-mt{margin-top:11px;}
+	.travel-tips-surrounding-traffic > .small-mt2{margin-top:17px;}
+	.travel-tips-surrounding-traffic > .small-mt-p{margin-top:8px;}
+	
+	.travel-tips-CCO > .COO-info1{margin-top:51px;padding-bottom:28px;}
+	.travel-tips-CCO > .COO-info .COO-info-text ul li:first-child{margin-bottom:17px;}
+
+	.travel-tips-scenic-spot-traffic,.travel-tips-scenic-spot-traffic > .p-tip{padding-top:34px;padding-bottom:34px;}
+	.travel-tips-scenic-spot-traffic > hr{margin-top:34px;margin-bottom:34px;}
+	.self-drive{padding-top:34px;padding-bottom:45px;}
+	.self-drive > h4{padding-top:34px;padding-bottom:11px;}
+	.self-drive > h5{margin-top:11px;}
+	.self-drive > hr{margin-top:34px;}
+	.self-drive > .hr-36{margin-top:25px;}
+	.self-drive > img{margin-top:11px;}
+
+	#video-window .video-content{width:915px;height:515px;margin-left:-457.5px;margin-top:-257.5px;}
+	#video-window .video-content > p{width:915px;margin-left:-457.5px;}
+
+	.travel_tips_strategy .strategy-list li a .left-img{width:228px;margin-right:28px;}
+	.travel_tips_strategy .strategy-list li a .right-content{width:742px;}
+	.travel_tips_strategy .strategy-list li a .right-content h2{font-size:20px;line-height:26px;}
+	.travel_tips_strategy .strategy-list li a .right-content p{font-size:14px;line-height:20px;margin-top:5px;}
+	.travel_tips_strategy .strategy-list li a .right-content .views{margin-top:12px;}
+
+	.travel_tips_ticket .tiket-info > div:first-child{margin-right:28.5px;}
+	.travel_tips_ticket .tiket-info > div{width:483px;}
+	.travel_tips_ticket .lrslist li > a > div span{font-size:14px;}
+	.travel_tips_ticket .tiket-info2 h4 .info{font-size:14px;}
+
+	.historyBanner > div > p{font-size:14px;line-height:28px;letter-spacing:0.5px;}
+
+	
+
+	.suggestions form > div input[type="text"]{margin-right: 25px;width: 194px;}
+	.suggestions form > div input{padding:14px 17px;width: 204px;}
+	.suggestions form > div input[type="submit"]{padding:11.5px 37px;}
+
+	.qiaoye .img-box1{margin-right:2%;}
+
+	.bookarea .book-info h2{padding-top:10px;font-size:24px;line-height:40px}
+	.bookarea .book-info > p{margin-top:0;}
+	.bookarea .book-info > span{margin-top:5px;}
+	.bookarea .book-info h4{margin-top:10px;font-size:20px;}
+	.bookarea .book-info h4 .views{margin-bottom:-10px;}
+	.bookarea .book-info .content{margin-top:10px;}
+	.travel-tips-surrounding-traffic .company-list > li{margin-right:28.5px;}
+	.travel-tips-surrounding-traffic .company-list > li > div{width:214px;line-height:60px;height:60px;}
+	.travel-tips-surrounding-traffic .company-list > li > div > h5{font-size:12px;}
+	.travel-tips-surrounding-traffic .company-list > li > div > img{padding:10px;}
+
+	.media-login .login-area .login input[type="text"]{box-sizing:border-box;width:100%;height:54px;}
+	.media-login .login-area .login form > span{width:33%;}
+	.media-login .login-area .login input[type="text"].code{width:60%;}
+
+	.small-img-area ul li{width:126px;margin-right:8px;margin-left:8px;height:71px;}
+	.small-img-area ul{}
+	.small-img-area .content-list .img-info{margin-top:15px;line-height:24px;font-size:14px;}
+
+	.photos-area .small-img-area-bg{height:216px;}
+	.photos-area .small-img-area{padding-bottom:0;padding-top:20px;}
+	.small-img-area p{margin-top:16px;font-size:16px;letter-spacing:0.4px;line-height:28px;}
+
+	.travel_tips_ticket .tiket-info2 > div > div > span.info{font-size:14px;}
+	.media-login .login-area .login form > span  > img{height:54px;}
+
+	.zhaoshang .bannerpc .tab-btn{bottom:32px;}
+	.videos-list > li .play-btn{width:100%;height:178px;}
+	.videos-list > li .play-btn .s-banner{height:178px;width: 285px;}
+
+
+
+	/*新加CSS*/
+	.cultural2 .list-activity > li > a > img{width:285px;height:178px;}
+
+
+	.tourist-industry3 .book .info h4{font-size:20px;line-height:34px;}
+	.tourist-industry3 .book .info span{font-size:12px;margin-top:10px;}
+
+
+	.media-login .login-area .login form > span #mycode{height:54px;}
+	.Honors .four-list li img{width:228;height:143px;}
+
+

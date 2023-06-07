@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <script src="js/dy.js"></script>
+    <script language="javascript"> 
+        (function(){
+            var res = GetRequest();
+            var par = res['index'];
+            if(par!='gfan'){
+                var ua=navigator.userAgent.toLowerCase();
+                var contains=function (a, b){
+                    if(a.indexOf(b)!=-1){return true;}
+                };
+        
+                var toMobileVertion = function(){
+                    window.location.href = '/wap/'
+                }
+         
+                if(contains(ua,"ipad")||(contains(ua,"rv:1.2.3.4"))||(contains(ua,"0.0.0.0"))||(contains(ua,"8.0.552.237"))){return false}
+                if((contains(ua,"android") && contains(ua,"mobile"))||(contains(ua,"android") && contains(ua,"mozilla")) ||(contains(ua,"android") && contains(ua,"opera"))
+            ||contains(ua,"ucweb7")||contains(ua,"iphone")){toMobileVertion();}
+            }
+        })();
+        function GetRequest() {
+           var url = location.search; 
+           var theRequest = new Object();
+           if (url.indexOf("?") != -1) {
+              var str = url.substr(1);
+              strs = str.split("&");
+              for(var i = 0; i < strs.length; i ++) {
+                 theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]);
+              }
+           }
+           return theRequest;
+        }
+        </script>
+        
+                <meta name="renderer" content="webkit">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+                <link href="./css/fonts.css" rel="stylesheet" type="text/css">
+                <link rel="stylesheet" type="text/css" href="./css/common.css">
+                <link rel="stylesheet" type="text/css" href="./css/css.css">
+                <link rel="stylesheet" type="text/css" href="./css/media.css">
+    <style>
+        fieldset{
+            width: 50%;
+            margin: 50px auto;
+            height: 300px;
+            background-color: aqua;
+            border-radius: 10px;
+        }
+        legend{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+        input{
+            margin-left: 50px;
+            font-size: 20px;
+        }
+    </style>
+    <script>
+        function dj(){
+            var name=document.getElementById("username").value;
+            var password=document.getElementById("password1").value;
+            if(name=="")
+            alert("用户名不能为空! ");
+            if(password==''){
+                alert("密码不能为空! ");
+            }
+            if(name=="cxy"&&password=="234"){
+                window.location.href="index.html";
+            }
+        }
+    </script>
+</head>
+<body>
+    <fieldset>
+        <legend>用户登录</legend>
+
+           <form name="form1" id="form1" method="POST" action="">
+               <p>用户名:<input type="text" id="username" name="username" size="20" placeholder="请输入你的用户名"></p>
+               <p>密码:<input type="password" id="password1" name="password1" size="20" placeholder="请输入你的密码"></p>
+               <p><input type="button" value="登录" name="B1" style="width: 80px" onclick="dj()">
+            <input type="button" value="注册" name="B2" style="width: 80px"onclick=" window.location.href='zhuce.html'"></p>
+           </form>
+
+
+
+    </fieldset>
+</body>
+</html>

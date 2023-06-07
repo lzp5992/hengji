@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+.content1 {
+    background-image:url(../模板_files/bg2.jpg);
+    font-size: 14px;
+    display: inline-block;
+    color: #003366;
+    width: 100%;
+    padding-bottom: 40px
+}
+
+
+
+.produce img {
+    margin: 0 20px 20px 0
+}
+
+.produce {
+    line-height: 30px
+}
+
+.pad {
+    padding: 0 20px;
+    display: block
+}
+
+.pics p {
+    margin: 1px;
+    text-align: center
+}
+
+.imglist {
+    width: 840px;
+    margin: 0 auto
+}
+
+.imglist li {
+    float: left;
+    width: 400px;
+    margin: 10px;
+    text-align: center
+}
+
+.pics {
+    margin: 0 20px
+}
+
+.pics li {
+    float: left;
+    width: 232px
+}
+
+.news li {
+    padding: 5px;
+}
+
+.ls p {
+    float: left;
+    width: 32%;
+    margin: 0.66%
+}
+
+
+
+.title {
+    text-align: center;
+    color: #F00;
+    padding: 10px
+}
+
+.fl {
+    float: left
+}
+
+.js div {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    float: left
+}
+
+.js div img {
+    float: left;
+    margin-right: 20px
+}
+
+.msg>div {
+    padding: 10px
+}
+
+.bar {
+    margin: 20px;
+    clear: both;
+    background: #336699;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bar span {
+ 
+    display: block;
+    padding: 5px;
+
+}
+
+.shu {
+    width: 200px;
+    height: 100px;
+}
+
+.tou {
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 20px;
+}
+
+.test {
+    width: 200px;
+    height: 50px;
+    margin-left: 140px;
+}
+
+.test select {
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.test textarea {
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+.test input {
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.test button {
+    margin-top: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+.inputs {
+    width: 500px;
+}
+
+.clock {
+    width: 200px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both
+}
+
+h2,p {
+    padding: 0;
+    margin: 0;
+    list-style: none
+}
+
+img {
+    display: block
+}
+
+nput[type="radio"]{
+    display: none;
+}
+
+nput[type="radio"]+label::before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid gold;
+}
